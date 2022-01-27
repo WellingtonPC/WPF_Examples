@@ -91,10 +91,10 @@ namespace _002_Calculator_App
                 resultLabel.Content = 0;
             }
 
-            if (sender ==timesButton) selectedOperator = SelectedOperator.Multiplication;
-            if (sender ==plusButton) selectedOperator = SelectedOperator.Addition;
-            if (sender ==minusButton) selectedOperator = SelectedOperator.Substraction;
-            if (sender ==divisionButton) selectedOperator = SelectedOperator.Division;
+            if (sender == timesButton) selectedOperator = SelectedOperator.Multiplication;
+            if (sender == plusButton) selectedOperator = SelectedOperator.Addition;
+            if (sender == minusButton) selectedOperator = SelectedOperator.Substraction;
+            if (sender == divisionButton) selectedOperator = SelectedOperator.Division;
 
         }
 
@@ -151,6 +151,10 @@ namespace _002_Calculator_App
 
             public static double Devide(double number1, double number2)
             {
+                if (number2 == 0)
+                {
+                    MessageBox.Show("Divison by zero is not allowed!", "Wrong Operation", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
                 return number1 / number2;
             }
 
