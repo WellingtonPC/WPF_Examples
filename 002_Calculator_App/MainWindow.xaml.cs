@@ -21,6 +21,7 @@ namespace _002_Calculator_App
     public partial class MainWindow : Window
     {
         double lastNumber, result;
+        SelectedOperator selectedOperator;
 
         public MainWindow()
         {
@@ -34,6 +35,29 @@ namespace _002_Calculator_App
 
         private void EqualButton_Click(object sender, RoutedEventArgs e)
         {
+            double newNumber;
+            if (double.TryParse(resultLabel.Content.ToString(), out newNumber))
+            {
+                switch (selectedOperator)
+                {
+                    case SelectedOperator.Addition:
+                        result = SiimpleMath.Add(lastNumber, newNumber);
+                        break;
+                    case SelectedOperator.Substraction:
+                        result = SiimpleMath.Subtraction(lastNumber, newNumber);
+                        break;
+                    case SelectedOperator.Multiplication:
+                        result = SiimpleMath.Multiply(lastNumber, newNumber);
+                        break;
+                    case SelectedOperator.Division:
+                        result = SiimpleMath.Devide(lastNumber, newNumber);
+                        break;
+
+                }
+                resultLabel.Content = result.ToString();
+                MessageBox.Show(result.ToString());
+            }
+
 
         }
 
@@ -67,6 +91,11 @@ namespace _002_Calculator_App
                 resultLabel.Content = 0;
             }
 
+            if (sender ==timesButton) selectedOperator = SelectedOperator.Multiplication;
+            if (sender ==plusButton) selectedOperator = SelectedOperator.Addition;
+            if (sender ==minusButton) selectedOperator = SelectedOperator.Substraction;
+            if (sender ==divisionButton) selectedOperator = SelectedOperator.Division;
+
         }
 
         private void NumberButton_Click(object sender, RoutedEventArgs e)
@@ -82,5 +111,54 @@ namespace _002_Calculator_App
                 resultLabel.Content = $"{resultLabel.Content}{selectedValue}";
             }
         }
+
+        public enum SelectedOperator
+        {
+            Addition,
+            Substraction,
+            Multiplication,
+            Division
+        }
+
+        private void dotButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (resultLabel.Content.ToString().Contains("."))
+            {
+                ///Do nothing
+            }
+            else 
+            { 
+                resultLabel.Content = $"{resultLabel.Content}.";
+            }
+        }
+
+        public class SiimpleMath 
+        {
+            public static double Add(double number1, double number2)
+            { 
+                return number1 + number2;
+            }
+
+            public static double Subtraction(double number1, double number2)
+            {
+                return number1 - number2;
+            }
+
+            public static double Multiply(double number1, double number2)
+            {
+                return number1 * number2;
+            }
+
+            public static double Devide(double number1, double number2)
+            {
+                return number1 / number2;
+            }
+
+
+
+        }
+
+
     }   
+
 }
