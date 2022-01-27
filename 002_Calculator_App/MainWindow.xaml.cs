@@ -24,5 +24,17 @@ namespace _002_Calculator_App
         {
             InitializeComponent();
         }
-    }
+
+        private void sevenButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (resultLabel.Content.ToString() == "0")
+            {
+                resultLabel.Content = "7";
+            }
+            else
+            {
+                resultLabel.Content = $"{resultLabel.Content}7";
+            }
+        }
+    }   
 }
