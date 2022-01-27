@@ -7,11 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel>
-            <Label/>
-            <TextBox/>
-            <TextBox/>
-            <Button/>
-        </StackPanel>
+        <Border BorderThickness="1" 
+                    BorderBrush="gray"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+
+            <StackPanel>
+                <Label Content="Result"/>
+                <TextBox Text="0"/>
+                <TextBox Text="0"/>
+                <Button Content="Calculate"
+                        Background="BlueViolet"
+                        Foreground="white"/>
+
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>
