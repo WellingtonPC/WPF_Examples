@@ -46,7 +46,7 @@
         <Button x:Name="threeButton" Click="NumberButton_Click" Background="{StaticResource numberColor}" Foreground="{StaticResource textColor}" Content="3" Grid.Column="2" Grid.Row="4" Margin="5"/>
         <Button x:Name="plusButton" Click="OperationButton_Click" Background="{StaticResource operatorColor}" Foreground="{StaticResource textColor}" Content="+" Grid.Column="3" Grid.Row="4" Margin="5"/>
         <Button x:Name="zeroButton" Click="NumberButton_Click" Background="{StaticResource numberColor}" Foreground="{StaticResource textColor}" Content="0" Grid.Column="0" Grid.Row="5" Margin="5" Grid.ColumnSpan="2"/>
-        <Button x:Name="dotButton" Click="dotButton_Click" Background="{StaticResource numberColor}" Foreground="{StaticResource textColor}" Content="." Grid.Column="2" Grid.Row="5" Margin="5"/>
+        <Button x:Name="dotButton" Style="{StaticResource numberButtonsStyle}" Click="dotButton_Click" Content="." Grid.Column="2" Grid.Row="5" Margin="5"/>
         <Button x:Name="equalButton" Click="EqualButton_Click" Background="{StaticResource operatorColor}" Foreground="{StaticResource textColor}" Content="=" Grid.Column="3" Grid.Row="5" Margin="5"/>
     </Grid>
 </Window>
