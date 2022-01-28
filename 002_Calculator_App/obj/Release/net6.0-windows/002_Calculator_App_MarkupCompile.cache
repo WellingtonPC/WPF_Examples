@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\002_Calculator_App\obj\Debug\net6.0-windows\
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\002_Calculator_App\obj\Release\net6.0-windows\
 _002_Calculator_App
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\002_Calculator_App\App.xaml
 11407045341
 

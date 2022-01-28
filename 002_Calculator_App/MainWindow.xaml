@@ -8,14 +8,6 @@
         Title="MainWindow" Height="300
         " Width="400">
 
-    <Window.Resources>
-        <SolidColorBrush x:Key="numberColor" Color="#444444"/>
-        <SolidColorBrush x:Key="operatorColor" Color="orange"/>
-        <SolidColorBrush x:Key="textColor" Color="white"/>
-
-    </Window.Resources>
-
-
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
