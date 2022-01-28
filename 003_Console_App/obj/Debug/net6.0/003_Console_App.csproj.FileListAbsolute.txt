@@ -1,0 +1,15 @@
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\bin\Debug\net6.0\003_Console_App.exe
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\bin\Debug\net6.0\003_Console_App.deps.json
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\bin\Debug\net6.0\003_Console_App.runtimeconfig.json
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\bin\Debug\net6.0\003_Console_App.dll
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\bin\Debug\net6.0\ref\003_Console_App.dll
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\bin\Debug\net6.0\003_Console_App.pdb
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\obj\Debug\net6.0\003_Console_App.csproj.AssemblyReference.cache
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\obj\Debug\net6.0\003_Console_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\obj\Debug\net6.0\003_Console_App.AssemblyInfoInputs.cache
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\obj\Debug\net6.0\003_Console_App.AssemblyInfo.cs
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\obj\Debug\net6.0\003_Console_App.csproj.CoreCompileInputs.cache
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\obj\Debug\net6.0\003_Console_App.dll
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\obj\Debug\net6.0\ref\003_Console_App.dll
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\obj\Debug\net6.0\003_Console_App.pdb
+C:\Users\wcosta\OneDrive - Alvarez and Marsal\0000_GitHub_WellingtonPC\Udemy_wpf\003_Console_App\obj\Debug\net6.0\003_Console_App.genruntimeconfig.cache
