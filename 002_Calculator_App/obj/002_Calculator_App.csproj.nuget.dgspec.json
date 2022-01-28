@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\UDEMY_WPF_Windows_Presentation_Foundation_Masterclass\\002_Calculator_App\\002_Calculator_App.csproj": {}
+    "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\Udemy_wpf\\002_Calculator_App\\002_Calculator_App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\UDEMY_WPF_Windows_Presentation_Foundation_Masterclass\\002_Calculator_App\\002_Calculator_App.csproj": {
+    "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\Udemy_wpf\\002_Calculator_App\\002_Calculator_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\UDEMY_WPF_Windows_Presentation_Foundation_Masterclass\\002_Calculator_App\\002_Calculator_App.csproj",
+        "projectUniqueName": "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\Udemy_wpf\\002_Calculator_App\\002_Calculator_App.csproj",
         "projectName": "002_Calculator_App",
-        "projectPath": "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\UDEMY_WPF_Windows_Presentation_Foundation_Masterclass\\002_Calculator_App\\002_Calculator_App.csproj",
+        "projectPath": "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\Udemy_wpf\\002_Calculator_App\\002_Calculator_App.csproj",
         "packagesPath": "C:\\Users\\wcosta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\UDEMY_WPF_Windows_Presentation_Foundation_Masterclass\\002_Calculator_App\\obj\\",
+        "outputPath": "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\Udemy_wpf\\002_Calculator_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

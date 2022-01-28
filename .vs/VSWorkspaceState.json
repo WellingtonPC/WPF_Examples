@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\002_Calculator_App"
   ],
-  "SelectedNode": "\\C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\UDEMY_WPF_Windows_Presentation_Foundation_Masterclass",
+  "SelectedNode": "\\002_Calculator_App\\App.xaml",
   "PreviewInSolutionExplorer": false
 }

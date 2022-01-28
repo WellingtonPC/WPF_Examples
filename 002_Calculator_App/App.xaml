@@ -7,5 +7,11 @@
 		<SolidColorBrush x:Key="numberColor" Color="#444444"/>
 		<SolidColorBrush x:Key="operatorColor" Color="orange"/>
 		<SolidColorBrush x:Key="textColor" Color="white"/>
-	</Application.Resources>
+
+        <!-- implicit style apply to all button -->
+        <Style TargetType="Button">
+            <Setter Property="BorderThickness" Value="5"/>
+        </Style>
+
+    </Application.Resources>
 </Application>
