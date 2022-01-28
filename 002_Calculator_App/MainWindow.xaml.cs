@@ -55,7 +55,6 @@ namespace _002_Calculator_App
 
                 }
                 resultLabel.Content = result.ToString();
-                MessageBox.Show(result.ToString());
             }
 
 
@@ -126,16 +125,16 @@ namespace _002_Calculator_App
             {
                 ///Do nothing
             }
-            else 
-            { 
+            else
+            {
                 resultLabel.Content = $"{resultLabel.Content}.";
             }
         }
 
-        public class SiimpleMath 
+        public class SiimpleMath
         {
             public static double Add(double number1, double number2)
-            { 
+            {
                 return number1 + number2;
             }
 
@@ -163,6 +162,6 @@ namespace _002_Calculator_App
         }
 
 
-    }   
+    }
 
 }
