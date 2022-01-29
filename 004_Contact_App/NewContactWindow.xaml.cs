@@ -41,10 +41,11 @@ namespace _004_Contact_App
             string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);   
             string dataBasePath = System.IO.Path.Combine(folderPath, dataBaseName);
 
-            SQLiteConnection connection = new SQLiteConnection(dataBasePath);
-            connection.CreateTable<Contact>();
-            connection.Insert(contact);
-            connection.Close();
+            using (SQLiteConnection connection = new SQLiteConnection(dataBasePath))
+            {
+                connection.CreateTable<Contact>();
+                connection.Insert(contact);
+            };
 
             this.Close();
         }
