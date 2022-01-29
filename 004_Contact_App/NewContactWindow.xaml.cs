@@ -26,7 +26,8 @@ namespace _004_Contact_App
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            //save contact 
+            this.Close();
         }
     }
 }
