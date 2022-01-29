@@ -77,7 +77,7 @@ namespace _004_Contact_App {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/004_Contact_App;V1.0.0.0;component/newcontactwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/004_Contact_App;component/newcontactwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\NewContactWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

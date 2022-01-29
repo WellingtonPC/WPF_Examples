@@ -13,5 +13,9 @@ namespace _004_Contact_App
     /// </summary>
     public partial class App : Application
     {
+        
+        static string dataBaseName = "Contact.db";
+        static string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+        public static string dataBasePath = System.IO.Path.Combine(folderPath, dataBaseName);
     }
 }

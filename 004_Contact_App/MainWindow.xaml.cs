@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _004_Contact_App.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,8 @@ namespace _004_Contact_App
         public MainWindow()
         {
             InitializeComponent();
+
+            ReadDataBase();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -30,6 +33,17 @@ namespace _004_Contact_App
             NewContactWindow newContactWindow = new NewContactWindow();
 //            newContactWindow.Show();
             newContactWindow.ShowDialog();
+            ReadDataBase();
+
+        }
+
+        void ReadDataBase()
+        {
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.dataBasePath)) 
+            {
+                conn.CreateTable<Contact>();
+                var contacts = conn.Table<Contact>().ToList();
+            }
         }
     }
 }
