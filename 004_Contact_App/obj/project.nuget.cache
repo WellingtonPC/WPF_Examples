@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "h5u67OqxsHr24EPfwMOn8BEjVtfSy/s4SGeFbwHw15H35GqllNjPF7Rp86KWywulKE4s2Ur6fmSLZm2Ciu2nfg==",
+  "dgSpecHash": "rfYMa9UKCYoAWU6L/zDaHQbgk94sH1SeD3RE7+v0DvrViRbfkQP4Jts079YzZ6l3RwakVmLJlzzAAQ899L5o6Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\wcosta\\OneDrive - Alvarez and Marsal\\0000_GitHub_WellingtonPC\\Udemy_wpf\\004_Contact_App\\004_Contact_App.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\wcosta\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\wcosta\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\wcosta\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\wcosta\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\wcosta\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\wcosta\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }
