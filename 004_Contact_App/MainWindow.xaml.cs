@@ -39,10 +39,23 @@ namespace _004_Contact_App
 
         void ReadDataBase()
         {
+            List<Contact> contacts;
             using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.dataBasePath)) 
             {
                 conn.CreateTable<Contact>();
-                var contacts = conn.Table<Contact>().ToList();
+                contacts = conn.Table<Contact>().ToList();
+            }
+
+            if (contacts != null) 
+            {
+                foreach(var c in contacts)
+                {
+                    contactsListView.Items.Add(new ListViewItem()
+                    {
+                        Content = c
+                    });
+                }
+                //contactsListView.ItemsSource = contacts;
             }
         }
     }
