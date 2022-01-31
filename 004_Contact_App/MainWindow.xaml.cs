@@ -48,14 +48,14 @@ namespace _004_Contact_App
 
             if (contacts != null) 
             {
-                foreach(var c in contacts)
-                {
-                    contactsListView.Items.Add(new ListViewItem()
-                    {
-                        Content = c
-                    });
-                }
-                //contactsListView.ItemsSource = contacts;
+                //foreach(var c in contacts)
+                //{
+                //    contactsListView.Items.Add(new ListViewItem()
+                //    {
+                //        Content = c
+                //    });
+                //}
+                contactsListView.ItemsSource = contacts;
             }
         }
     }
