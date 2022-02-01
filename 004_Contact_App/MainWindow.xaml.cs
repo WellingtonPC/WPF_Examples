@@ -21,10 +21,13 @@ namespace _004_Contact_App
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        List<Contact> contacts;
+
         public MainWindow()
         {
             InitializeComponent();
-
+            contacts = new List<Contact>();
             ReadDataBase();
         }
 
@@ -39,7 +42,6 @@ namespace _004_Contact_App
 
         void ReadDataBase()
         {
-            List<Contact> contacts;
             using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.dataBasePath)) 
             {
                 conn.CreateTable<Contact>();
@@ -48,15 +50,15 @@ namespace _004_Contact_App
 
             if (contacts != null) 
             {
-                //foreach(var c in contacts)
-                //{
-                //    contactsListView.Items.Add(new ListViewItem()
-                //    {
-                //        Content = c
-                //    });
-                //}
                 contactsListView.ItemsSource = contacts;
             }
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox searchTexBox = sender as TextBox;
+            var filteredList = contacts.Where(c => c.Name.ToLower().Contains(searchTexBox.Text.ToLower())).ToList();
+            contactsListView.ItemsSource = filteredList;
         }
     }
 }
